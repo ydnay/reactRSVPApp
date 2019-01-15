@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import GuestList from './GuestList'
+import GuestList from './GuestList';
 
 class App extends Component {
 
@@ -31,7 +31,7 @@ class App extends Component {
           return {
             ...guest,
             [property]: !guest[property]
-          }
+          };
         }
         return guest;
       })
